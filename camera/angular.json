@@ -61,8 +61,12 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options": {
-            "port": 7200 
+    
+        "options": {
+          "browserTarget": "motiv-app:build",
+          "host": "192.168.30.149",
+          "port": 7200 
+
         },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
